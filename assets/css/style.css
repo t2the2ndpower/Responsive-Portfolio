@@ -1,0 +1,176 @@
+/* Please Note:  There is a LOT of experimentation here, don't judge. */
+
+
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;   */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: rgb(128, 128, 128);
+    background: url("../images/uglybackground.png")left top repeat ;
+}
+
+.TopBar {
+    line-height: 50px;
+    background-color: white;
+    /* border: 2px purple solid; */
+}
+
+.TopBarText {
+    color: white;
+    width: 30%;
+    padding: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 250px;
+    background-color: rgb(88, 133, 133);
+    line-height: 60px;
+    /* position: relative; */
+    /* border: 2px lightcoral solid; */
+    /* float: left; */
+    display: inline-block;
+}
+
+.TopBarLinks {
+    position: relative;
+    width: 25%;
+    padding: 65px 0px 0px 0px;
+    float: right;
+    /* border: 2px green solid; */
+    display: inline-block ;
+    /* align-content: right; */
+    font-size: 20px;
+    /* font-style: bold underline; */
+
+}
+
+/* a.TopBarLinks { 
+    padding: 0px 20px 0px 0px
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(40, 62, 77);
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+    font-size: 16px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(48, 151, 235);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: lightslategray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 0, 212);
+  }
+
+.SpaceBar {
+    height: 45px;
+    background-image: ("../images/uglybackground.png")
+}
+.H2Bar {
+    color: #555;
+    margin-left: 250px;
+    /* float: left; */
+    padding: 20px;
+    height: auto;
+    width: 960px;
+    border-bottom: 2px solid;
+    background-color: white;
+}
+
+.H2Content {
+    margin-left: 250px;
+    /* float: left; */
+    padding: 20px;
+    height: auto;
+    width: 960px;
+    border-top: 2px solid;
+    background-color: white;
+
+}
+.BottomBar {
+    border-top: 7px solid rgb(88,133,133);
+    /* border-top-color: rgb(88, 133, 133); */
+    height: 45px;
+    /* float: left; */
+    position: absolute bottom;
+    /* align-content: center; */
+    text-align: center;
+    background-color: grey;
+    color: #333;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: 777;
+}
+
+p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.projband {
+    display: block;
+    background-color: teal;
+    color: white;
+    font-size: 20;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 30px;
+}
+img { 
+    /* padding: 20px 30px 10px 20px; */
+    /* border-color: gray; */
+    /* float: left; */
+    display: block;
+    height: 250px;
+    width: 250px;
+}
+
+/* div.gallery img { 
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  */
+
+  /* .form {
+      width: 300px;
+      height: 300px;
+      border: green;
+      color: purple;
+  /* } */
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
