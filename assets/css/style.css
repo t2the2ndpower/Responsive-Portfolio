@@ -174,3 +174,37 @@ img {
     padding: 15px;
     text-align: center;
   }
+
+  @media screen and (max-width: 980px) {
+    .TopBarText {padding: 0px 0px 0px 15px;
+      margin: 0px 0px 0px 10px;
+      line-height: 50px;}
+    .H2Bar {margin-left: 10px;width: 680px;}
+    .H2Content {margin: 0px 10px 0px 10px; width: 680px;}
+    h1 {font-size: 50px;}
+    .TopBarLinks {padding: 0px 0px 0px 0px; font-size: 10px;}
+    .TopBar {width: 900px;}
+
+
+  @media screen and (max-width: 768px) {
+    .TopBarText {padding: 0px 0px 0px 15px;
+      margin: 0px 0px 0px 10px;
+      line-height: 50px;}
+    .H2Bar {margin-left: 10px;width: 680px;}
+    .H2Content {margin: 0px 10px 0px 10px; width: 680px;}
+    h1 {font-size: 30px;}
+    .TopBarLinks {padding: 0px 0px 0px 0px; font-size: 10px;}
+    .TopBar {width: 725px;}
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    .TopBarText {padding: 0px 0px 0px 15px;
+      margin: 0px 0px 0px 10px;
+      line-height: 50px;}
+    .H2Bar {margin-left: 10px;width: 500px;}
+    .H2Content {margin: 0px 10px 0px 10px; width: 500px;}
+    h1 {font-size: 20px;}
+    .TopBarLinks {padding: 0px 0px 0px 0px; font-size: 10px;}
+    .TopBar {width: 550px;}
+  }
